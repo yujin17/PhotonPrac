@@ -54,6 +54,8 @@ public class PhotonManager : MonoBehaviourPunCallbacks
             TitleText.text = "닉네임은 2글자 이상 6글자 이하";
         }
     }
+
+    /*
     public override void OnJoinedLobby()
     {
         RoomOptions options = new();
@@ -66,5 +68,5 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         PhotonNetwork.Instantiate("Player", Vector2.zero, Quaternion.identity);
         base.OnJoinedRoom();
     }
-
+    */
 }
